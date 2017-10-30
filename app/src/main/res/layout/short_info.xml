@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/short1"
+    android:background="@color/background_material_dark">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AKOREDE HOSTEL"
+                android:id="@+id/button"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_below="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/a"  />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 65,000.00  This hostel is located along the school road and within a close proximity (3 minutes walk) to the school. It encloses self-contained apartments.  Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included. Call: 08135719238 or 08035830712 for booking."
+                android:id="@+id/textView6"
+                android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BEST LEGACY HOSTEL"
+                android:id="@+id/buttonA"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewA"
+                android:layout_below="@+id/buttonA"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/b" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 80,000.00
+ This hostel is located along the school road and within a close proximity (3 minutes walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #80,000 per session, all bills (Electricity, e.t.c) already included. "
+                android:id="@+id/textView7"
+                android:layout_below="@+id/imageViewA"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ELIZABETH LOGDE"
+            android:id="@+id/button3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_below="@+id/button3"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 65,000.00
+                This hostel is located along the school road and within a close proximity (a minute walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included."
+                android:id="@+id/textView8"
+                android:layout_below="@+id/imageView3"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO NAME"
+                android:id="@+id/button4"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:layout_below="@+id/button4"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/d" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 65,000.00
+ This hostel is located along the school road and within a close proximity (a minute walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included. "
+                android:id="@+id/textView9"
+                android:layout_below="@+id/imageView4"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO NAME"
+                android:id="@+id/button5"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:layout_below="@+id/button5"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/e" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 65,000.00
+ This hostel is located along the school road and within a close proximity (a minute walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included.  "
+                android:id="@+id/textView10"
+                android:layout_below="@+id/imageView5"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHRISCALAG"
+                android:id="@+id/button6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:layout_below="@+id/button6"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/f" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 65,000.00
+ This hostel is located along the school road and within a close proximity (a minute walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included. "
+                android:id="@+id/textView11"
+                android:layout_below="@+id/imageView6"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ESTHER ADEJOKE"
+                android:id="@+id/button7"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:layout_below="@+id/button7"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/g" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 80,000.00
+ This hostel is located along the school road and within a close proximity (a minute walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included. "
+                android:id="@+id/textView12"
+                android:layout_below="@+id/imageView7"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO NAME"
+                android:id="@+id/button8"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:layout_below="@+id/button8"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/h" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 35,000.00
+ This hostel is located along the school road and within a close proximity (a minute walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included. Call: 08135719238 or 08035830712 for booking. "
+                android:id="@+id/textView13"
+                android:layout_below="@+id/imageView8"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AYO HOUSE"
+                android:id="@+id/button9"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView9"
+                android:layout_below="@+id/button9"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/i" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 200,000.00
+This hostel is located along the school road and within a close proximity (8 minutes walk) to the school. It encloses a clean compound and some 3-bedroom flats for you and your pals.
+ Each flat costs #200,000 per session, all bills (Electricity, e.t.c) already included. "
+                android:id="@+id/textView14"
+                android:layout_below="@+id/imageView9"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO NAME"
+                android:id="@+id/button10"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView10"
+                android:layout_below="@+id/button10"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/j" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 65,000.00
+ This hostel is located along the school road and within a close proximity (a minute walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included. Call: 08135719238 or 08035830712 for booking. "
+                android:id="@+id/textView15"
+                android:layout_below="@+id/imageView10"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO NAME"
+                android:id="@+id/button11"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView11"
+                android:layout_below="@+id/button11"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/k" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 35,000.00
+ This hostel is located along the school road and within a close proximity (a minute walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included. "
+                android:id="@+id/textView16"
+                android:layout_below="@+id/imageView11"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZION HOSTEL"
+                android:id="@+id/button12"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView12"
+                android:layout_below="@+id/button12"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/l" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="₦ 65,000.00
+ This hostel is located along the school road and within a close proximity (a minute walk) to the school. It encloses self-contained apartments.
+ Each self-contained apartments cost #65,000 per session, all bills (Electricity, e.t.c) already included.  "
+                android:id="@+id/textView17"
+                android:layout_below="@+id/imageView12"
+                android:layout_centerHorizontal="true"
+                android:background="#f7f9ff" />
+        </RelativeLayout>
+
+
+
+    </ViewFlipper>
+
+</RelativeLayout>

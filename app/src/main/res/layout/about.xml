@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ABOUT INSPIRRON"
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:id="@+id/aboutscroll"
+        android:layout_below="@+id/textView4">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Having completed the MapUp of the six campuses of UNIOSUN, HOSTEL LINKS was born out of the young mind of Akintola Oluwaseun(GSA UNIOSUN) and Gold Osborne(UNIOSUN ALUMNI), which is targetted at easing the stress of students walking around the entire community to get a good hostel.  More to be added to the Pro Version: Auto Check for availability."
+            android:id="@+id/textView5" />
+    </ScrollView>
+
+</RelativeLayout>
